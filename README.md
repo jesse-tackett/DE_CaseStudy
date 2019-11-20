@@ -5,6 +5,7 @@ Data Engineering Case Study
 Jesse Tackett - PerScholas pySpark Case Study - October 25, 2019
 
 ======================Overhead:======================
+
 A) Start Kafka
 	Make sure Topics are Reset
 	Start Zookeeper
