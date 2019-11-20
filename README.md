@@ -1,7 +1,12 @@
+
+# Important Detail
+
+	This Whole case study was done on a single local machine. So the expanation to run below was made with that in mind.
+
 # DE_CaseStudy
 Data Engineering Case Study
 
-/+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Jesse Tackett - PerScholas pySpark Case Study - October 25, 2019
 
 ======================Overhead:======================
@@ -85,7 +90,7 @@ OPTIONAL:
 	There is the raw python file for visualization if you would like it.
 
 Run each code block within the notebook from top to bottom and then enjoy the results!
-\+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 Thank you for looking at my Case Study, have a wonderful day!
