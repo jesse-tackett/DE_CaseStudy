@@ -7,16 +7,27 @@ Jesse Tackett - PerScholas pySpark Case Study - October 25, 2019
 ======================Overhead:======================
 
 A) Start Kafka
+
 	Make sure Topics are Reset
+	
 	Start Zookeeper
+	
 	Start Kafka server
+	
 	Keep it running in the background
+	
 B) Run MainTransfer
+
 	Run code in command prompt
+	
 C) Start Jupyter
+
 	Upload jupyter code
+	
 D) Run Visualization
+
 	Run blocks from the top -> down
+	
 E) Enjoy!
 
 ======================Details:======================
@@ -31,19 +42,27 @@ Assuming:
 To run this Case Study you will first need to:
 
 * Open command prompt and run this command to start Zookeeper Server:
+
 	'zookeeper-server-start.bat C:\kafka\config\zookeeper.properties'
+	
 			OR
+			
 	'zookeeper-server-start.bat C:\"Your zookeeper.properties file destination"'
 
 * Open a second command prompt and run this command to start Kafka Server:
+
 	'kafka-server-start.bat C:\kafka\config\server.properties'
+	
 			OR
+			
 	'kafka-server-start.bat C:\"Your server.properties file destination"'
 
 * Open a third command prompt and run this command to start the Transfer Process:
+
 	'cd C:\Downloads\TackettJesse_CaseStudy\DataTransfer'
 
 * Then this command in the third command prompt:
+
 	'python TackettJesse_MainTransfer.py'
 	
 This will run selection process on all the data and what you want to transfer when.
