@@ -1,7 +1,7 @@
 
 # Important Detail
 
-	This Whole case study was done on a single local machine. So the expanation to run below was made with that in mind.
+This Whole case study was done on a single local machine. So the expanation to run below was made with that in mind.
 
 # DE_CaseStudy
 Data Engineering Case Study
