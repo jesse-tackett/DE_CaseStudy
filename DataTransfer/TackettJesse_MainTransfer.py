@@ -117,15 +117,6 @@ def mariaTransfer():
     print('Here is a single row sample of the Customer transfer')
     customer_final.show(1)
 
-
-    '''
-    ##########here we'll load the transformed dataframes into mongo###############
-    #Drop database as to not manually reset every time
-    client = mongo.MongoClient()
-    client.drop_database('CDW_SAPP')
-    client.close()
-    '''
-
     #Loading here
     #For loop that puts the data frames into MongoDB
     print('Now Loading transformed data into MongoDB')
