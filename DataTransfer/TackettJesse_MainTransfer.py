@@ -12,8 +12,6 @@ import requests, os
 from kafka import KafkaProducer
 from pyspark.sql import SparkSession, Row
 conf_new = pyspark.SparkConf().setAppName('appName').setMaster('local[*]')
-
-#Imports for Kafka to Spark to MongoDB
 os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.1 pyspark-shell'
 
 #---------------------------------------------------------------------------
