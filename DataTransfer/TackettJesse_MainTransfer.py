@@ -2,7 +2,6 @@
 import findspark
 findspark.init('C:/spark')
 import pymongo as mongo
-import pyspark
 import time
 findspark.find()
 from pyspark import SparkContext, SparkConf
@@ -13,11 +12,6 @@ import requests, os
 from kafka import KafkaProducer
 from pyspark.sql import SparkSession, Row
 conf_new = pyspark.SparkConf().setAppName('appName').setMaster('local[*]')
-
-#Imports for Kafka to Spark to MongoDB
-import requests, os
-from kafka import KafkaProducer
-from pyspark.sql import SparkSession, Row
 os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.1 pyspark-shell'
 
 #---------------------------------------------------------------------------
